@@ -30,8 +30,8 @@ npm run start
 #### Запускает приложение в режиме разработки.
 #### Откройте http://localhost:3000 , чтобы просмотреть его в браузере.
 
-```json
-json-server --watch db.json
+```json-server 
+    json-server --watch db.json
 ```
 #### Устанавливает полный поддельный REST API.
 #### В package.json в "scripts" прописываем "fake-json": "json-server ./src/assets/db.json --watch --port 3001", для того, что бы было удобно запускать Json-server.
